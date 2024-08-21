@@ -1,0 +1,173 @@
+body { 
+  padding: 0; 
+  margin: 0; 
+  /* box-sizing: border-box;  */
+} 
+
+/* .container { 
+  display: flex; 
+  align-items: center; 
+  min-height: 100vh; 
+  flex-direction: column; 
+  box-sizing: border-box; 
+  padding-top: 50px; 
+}  */
+
+.teacher{
+  height: 100vh;
+}
+.heading{
+  margin-left: 60%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+  .row1 { 
+    width: calc(100% - 10px); 
+    max-width: 650px; 
+  } 
+    
+  select { 
+    width: calc(50% - 20px); 
+    line-height: 40px; 
+    font-size: 14px; 
+    border: 1px solid #dadce0; 
+    border-radius: 8px; 
+    height: 40px; 
+    padding-left: 18px; 
+    position: relative; 
+    color: #1a0dab; 
+    cursor: pointer; 
+    outline: none; 
+    margin-left: 50%;
+    /*user-select: none; */
+  } 
+    
+  .reversesvg { 
+    width: 20px; 
+    color: rgba(0, 0, 0, 0.26); 
+    line-height: 40px; 
+    opacity: 0.5; 
+    vertical-align: middle; 
+    cursor: pointer; 
+    margin: 0px 10px; 
+  } 
+    
+  option { 
+    color: #202124; 
+  } 
+    
+  .row2 { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: calc(100% - 10px); 
+    max-width: 650px; 
+    margin-top: 10px; 
+    margin-left: 22%;
+    position: relative; 
+  } 
+    
+  .inputText { 
+    width: calc(50% - 20px); 
+    position: relative; 
+    background: wheat;
+  } 
+    
+  .outputText { 
+    width: calc(50% - 30px); 
+    height: 169px; 
+    font-family: monospace; 
+    box-sizing: border-box; 
+    padding: 15px; 
+    font-size: 20px; 
+    border-radius: 8px; 
+    overflow: auto; 
+    background: wheat; 
+    text-align: left; 
+    margin-top: 10px;
+    margin-left: 50.5%;
+  } 
+    
+  .row2 textarea { 
+    width: 100%; 
+    height: 150px; 
+    resize: none; 
+    box-sizing: border-box; 
+    padding: 0px 35px 10px 10px; 
+    margin-top: 10px; 
+    border: none; 
+    font-size: 20px; 
+    overflow: auto; 
+    color: #202124; 
+    outline: none; 
+  } 
+    
+  .removeinput { 
+    cursor: pointer; 
+    width: 20px; 
+    position: absolute; 
+    opacity: 0.5; 
+    top: 5px; 
+    right: 3px; 
+  } 
+    
+  .row3 { 
+    width: calc(100% - 10px); 
+    max-width: 650px; 
+    margin-top: 15px; 
+    margin-bottom: 20px; 
+  } 
+    
+  .btn { 
+    width: 40%; 
+    position: relative; 
+    padding: 10px; 
+    outline: none; 
+    background-color:orange; 
+    color: #fff; 
+    border: 2px solid #6d9eed; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    letter-spacing: 0.5px; 
+    margin-left: 52%;
+  } 
+    
+  .btn i { 
+    display: none; 
+  } 
+
+.parents{
+  height: 100vh;
+}
+    
+  @media screen and (max-width: 500px) { 
+    .row2 { 
+      flex-direction: column; 
+    } 
+    .inputText { 
+      width: 100%; 
+    } 
+    .outputText { 
+      width: 100%; 
+      margin-top: 20px; 
+    } 
+  } 
+    
+  ::-webkit-scrollbar { 
+    width: 4px; 
+  } 
+  ::-webkit-scrollbar-track { 
+    display: none; 
+  } 
+  ::-webkit-scrollbar-thumb { 
+    background: rgb(173, 172, 172); 
+    border-radius: 4px; 
+  } 
+.inputText {
+    page-break-after: always;
+     }
+            
+.final-output{
+  width: 100vh;
+}
